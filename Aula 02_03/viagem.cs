@@ -1,17 +1,3 @@
-using System;
-
-class MainClass {
-  public static void Main (string[] args) { 
-    Viagem x;
-    x = new Viagem();
-    //x.distancia = 300;
-    //x.tempo = -4;
-    x.SetDistancia(300);
-    x.SetTempo(5);
-    Console.WriteLine(x.VelocidadeMedia());
-  }
-}
-/*
 class Viagem {
   private double distancia;
   private double tempo;
@@ -25,4 +11,3 @@ class Viagem {
     return distancia/tempo;
   }
 }
-*/
